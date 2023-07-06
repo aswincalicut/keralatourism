@@ -1,0 +1,73 @@
+.dest{
+    text-align: center;
+    color:#003366 ;
+    font-weight: 400;
+    padding-bottom: 40px;
+    padding-top: 50px;
+   
+}
+.bg{
+    background-color: #e3e7f1;
+}
+.pic1{
+    /* width: 327px; */
+    padding-bottom: 3px;
+    border-radius: 0px;
+}
+.cardgap{
+    margin-left: -25px;
+}
+/* .pic2{
+    width: 327px;
+    
+}
+.pic3{
+    width: 327px;
+}
+.pic4{
+    width: 327px;
+}
+.pic5{
+    width: 327px;
+    padding-top: 3px;
+}
+.pic6{
+    width: 327px;
+    padding-top: 3px;
+}
+.pic7{
+    width: 327px;
+    padding-top: 3px;
+}
+.pic8{
+    width: 327px;
+    padding-top: 3px;
+} */
+
+.destination{
+    background-color: #003366;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    margin-left: 42%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 0px;
+    padding-left: 20px;
+    padding-right: 30px;
+    
+}
+.destination:hover{
+    background-color: #01274e;
+}
+.group{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    background-color:rgba(52, 49, 49, 0.5);
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+}

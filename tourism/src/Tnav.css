@@ -1,0 +1,26 @@
+.move{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+.keralaimg{
+    width: 200px;
+    height: 60px;
+    
+}
+#content{
+  
+  margin-top: 40px;
+  font-size: 15px;
+  
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
