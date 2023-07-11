@@ -100,6 +100,21 @@
     padding-left: 15px;
     padding-right: 20px;
     margin-left: 42%;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.imgdetails{
+    background-color: white;
+    color: #666666;
+    text-align: center;
+    font-size: 12px; 
+}
+
+.cardpad{
+    margin-right: -25px;
+}
+
+.aimg{
+    border-radius: 0px;
 }

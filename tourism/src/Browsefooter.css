@@ -1,0 +1,121 @@
+.btnbrowsesection{
+    text-align: center;
+}
+
+.browsebtn{
+    border-radius: 0px;
+    background-color: #003366;
+    font-size: 17px;
+    font-weight: lighter;
+    margin-top: 35px;
+    margin-bottom: 90px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.browsebtn:hover{
+    background-color: #042a4f;
+    
+}
+
+.connect{
+    text-align: center;
+    color: #003366;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.yt{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding-top: 25px; 
+    text-align: center;
+    margin-right: 20px;
+    color: white;
+}
+
+.fb{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background-color:#3b5999;
+    padding-top: 25px; 
+    text-align: center;
+    margin-right: 20px;
+    color: white;
+}
+.twit{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background-color:#27aae1;
+    padding-top: 25px; 
+    text-align: center;
+    margin-right: 20px;
+    color: white;
+    
+}
+
+.cam{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background-color:#5280a5;
+    padding-top: 25px; 
+    text-align: center;
+    margin-right: 20px;
+    color: white;
+}
+
+.wp{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background-color:#189d0e;
+    padding-top: 25px; 
+    text-align: center;
+    margin-right: 20px;
+    color: white;
+}
+
+.pin{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background-color:#e60023;
+    padding-top: 25px; 
+    text-align: center;
+    margin-right: 20px;
+    color: white;
+}
+
+.link{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background-color:#0e76a8;
+    padding-top: 25px; 
+    text-align: center;
+    margin-right: 20px;
+    color: white;
+}
+
+.iconslast li{
+    display: inline-block;
+}
+
+.iconrow{
+    text-align: center;
+}
+
+.trend{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 45px;
+}
+
+.tour{
+    color: #003366;
+}

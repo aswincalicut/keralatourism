@@ -7,6 +7,8 @@ import Tnav from './Tnav';
 import Tcard from './Tcard';
 import Tdestination from './Tdestination';
 import Tbgimage from './Tbgimage';
+import Tpackages from './Tpackages';
+import Browsefooter from './Browsefooter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +18,8 @@ root.render(
     <Tcard />
     <Tdestination />
     <Tbgimage />
+    <Tpackages />
+    <Browsefooter />
   </React.StrictMode>
 );
 

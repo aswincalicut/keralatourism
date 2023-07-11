@@ -13,12 +13,12 @@ function Tbgimage() {
     {image:"https://www.keralatourism.org/images/homecontentimage/desktop/parasailing1.jpg",text:"Parasailing"}
   ]
   const pulikkali = [
-    {image:"https://www.keralatourism.org/images/festivals/home-thumb/20160628064542_365_1.jpg",details:""},
-    {image:"https://www.keralatourism.org/images/festivals/home-thumb/20181108075932_170_1.jpg",details:""},
-    {image:"https://www.keralatourism.org/images/festivals/home-thumb/20170710102310_123_1.jpg",details:""},
-    {image:"https://www.keralatourism.org/images/festivals/home-thumb/20171222121145_317_1.jpg",details:""},
-    {image:"https://www.keralatourism.org/images/festivals/home-thumb/20131104154213_40_1.jpg",details:""},
-    {image:"https://www.keralatourism.org/images/festivals/home-thumb/20180510222310_225_1.jpg",details:""}
+    {image:"https://www.keralatourism.org/images/festivals/home-thumb/20160628064542_365_1.jpg",details:"Aanayoottu at Vadakkumnathan Temple"},
+    {image:"https://www.keralatourism.org/images/festivals/home-thumb/20181108075932_170_1.jpg",details:"Njangattiri Aanayoottu"},
+    {image:"https://www.keralatourism.org/images/festivals/home-thumb/20170710102310_123_1.jpg",details:"Athachamayam"},
+    {image:"https://www.keralatourism.org/images/festivals/home-thumb/20171222121145_317_1.jpg",details:"Thiruvonam"},
+    {image:"https://www.keralatourism.org/images/festivals/home-thumb/20131104154213_40_1.jpg",details:"Pulikali"},
+    {image:"https://www.keralatourism.org/images/festivals/home-thumb/20180510222310_225_1.jpg",details:"Manarcad Perunnal or Ettunoyambu"}
   ]
   return (
     <div>
@@ -63,7 +63,10 @@ function Tbgimage() {
                           {pulikkali.map((i)=>{
                             return(
                               <Col lg={2} md={4}>
-                              <a href='#'><Card.Img src={i.image} /></a>  
+                                <Card className='cardpad'>
+                              <a href='#'><Card.Img className='aimg' src={i.image} /></a> 
+                              <Card.Footer className='imgdetails'>{i.details}</Card.Footer> 
+                              </Card>
                               </Col>
                             )})}
 
@@ -73,6 +76,7 @@ function Tbgimage() {
 
                     <Button className='festivals'>MORE FESTIVALS & EVENTS  <FaGreaterThan /></Button>
         </section>
+
     </div>
   )
 }
