@@ -40,8 +40,9 @@ function Tbgimage() {
                 
               </Row>
             </Container>
-
+                    <div className='btn-more'>
                     <Button className='btnmore'>FIND MORE ACTIVITIES <FaGreaterThan /> </Button>
+                    </div>
         </section>
 
         <section className='whatsnew'>
@@ -50,8 +51,9 @@ function Tbgimage() {
                    
                     <p  className='trade'>Domestic Trade Fairs 2023-24 | Register Now <span className='inter'>International Trade Fair | May 2023</span> </p>
                   
-                    
+                    <div className='btn-news'>
                     <Button className='btnnews'>MORE NEWS  <FaGreaterThan /></Button>
+                    </div>
         </section>
 
         <section className='happening'>
@@ -74,7 +76,9 @@ function Tbgimage() {
                       </Container>
                     </Carousel>
 
+                    <div className='btn-festivals'>
                     <Button className='festivals'>MORE FESTIVALS & EVENTS  <FaGreaterThan /></Button>
+                    </div>
         </section>
 
     </div>

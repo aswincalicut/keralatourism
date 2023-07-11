@@ -37,7 +37,9 @@ function Tdestination() {
           </Row>
           </Container>
 
+          <div className='btn-destination'>
           <Button className='destination'>EXPLORE OUR DESTINATIONS <FaGreaterThan/> </Button>
+          </div>
         </section>
     </div>
   )

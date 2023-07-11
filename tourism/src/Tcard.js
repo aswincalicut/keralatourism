@@ -32,7 +32,9 @@ function Tcard() {
             </Container>
         </Carousel>
 
+       <section className='btnfind'>           
       <Button className='find'>FIND MORE EXPERIENCES <FaGreaterThan /> </Button>
+      </section>
     </div>
   )
 }

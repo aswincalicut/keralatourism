@@ -56,8 +56,10 @@ function Tpackages() {
                 )})}
             </Row>
         </Container>
-
+        
+        <div className='new-btn-packages'>
         <Button className='btn-packages'>FIND MORE PACKAGES  <FaGreaterThan /></Button>
+        </div>
         </section>
 
         <section className='plansec'>

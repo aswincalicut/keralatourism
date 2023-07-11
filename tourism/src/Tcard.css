@@ -12,10 +12,14 @@
     
 }
 
+.btnfind{
+    text-align: center;
+}
+
 .find{
     margin-top: 30px;
     margin-bottom: 50px;
-    margin-left: 42%;
+    /* margin-left: 42%; */
     background-color: #003366;
     border-radius: 0px;
     padding-left: 20px;

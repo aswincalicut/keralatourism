@@ -119,3 +119,17 @@
 .tour{
     color: #003366;
 }
+
+.footer-section{
+    background-color:#e3e7f1;
+    padding-top: 20px;
+}
+li{
+    list-style: none;
+    font-size: 13.5px;
+}
+h5{
+    color: #003366;
+    font-size: 20px;
+    font-weight: lighter;
+}
